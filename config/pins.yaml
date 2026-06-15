@@ -1,0 +1,14 @@
+gpio_mode: BCM
+pwm_frequency: 1000
+default_speed: 45
+
+tb6612:
+  stby: 17
+  left:
+    in1: 27
+    in2: 22
+    pwm: 18
+  right:
+    in1: 23
+    in2: 24
+    pwm: 13
