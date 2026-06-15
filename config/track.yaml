@@ -1,0 +1,13 @@
+hsv:
+  # Example range for a green object; tune for your lighting.
+  lower: [35, 80, 60]
+  upper: [85, 255, 255]
+
+min_area: 800
+lost_stop_frames: 4
+
+steering:
+  deadband_px: 40
+  base_speed: 35
+  turn_gain: 45
+  max_speed: 70
